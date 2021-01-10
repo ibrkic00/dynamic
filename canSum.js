@@ -13,7 +13,7 @@ const canSum = (target, numbers, memo = {}) => {
     memo[target] = false;
     return false;
 };
-
+// test
 
 console.log(canSum(7, [2, 3]));  // true
 console.log(canSum(7, [5, 3, 4, 7]));  // true
